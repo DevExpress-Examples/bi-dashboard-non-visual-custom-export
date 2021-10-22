@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # BI Dashboard - Non-Visual Custom Export
 
-This example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component to export a dashboard with a [custom Funnel item](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item).
+This example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component in a console application to export a dashboard with a [custom Funnel item](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item).
 
 <!-- default file list -->
 ## Files to look at

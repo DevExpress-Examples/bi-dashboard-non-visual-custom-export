@@ -32,7 +32,7 @@ The `CustomItemExportInfo` object contains the custom Funnel's export settings a
 The `ChartControl.SelectionMode` property is updated according to the actual master filter mode.
 The [SetSelection](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.CustomControlProviderBase.SetSelection(DevExpress.DashboardCommon.CustomItemSelection)) method updates the custom control according to the current master filter selection. 
 
-The `ConigureSeries` method is used to bind the custom Funnel chart's series to data and configure them. The [CustomItemData.GetBindings](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemData.GetBindings(System.String)) method gets a CustomItemBindingValue collection. Each object in this collection contains information about data items stored in a custom item. The object’s UniqueId property value can be used as a data member when a custom control is bounded to data. 
+The `ConigureSeries` method is used to bind the custom Funnel chart's series to data and configure them. The [CustomItemData.GetBindings](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemData.GetBindings(System.String)) method gets a `CustomItemBindingValue` collection. Each object in this collection contains information about data items stored in a custom item. The object’s `UniqueId` property value can be used as a data member when a custom control is bounded to data. 
 
 ### Program
 

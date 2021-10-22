@@ -38,7 +38,7 @@ The `ConigureSeries` method is used to bind a custom Funnel chart's series to da
 
 [CS](./CS/DashboardExporterApp/Program.cs)/[VB](./VB/DashboardExporterApp/Program.vb)
 
-The [CustomItemExportControlCreating](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.CustomItemExportControlCreating) event fires for the Funnel item and the [ExportControlProvider](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemExportControlCreatingEventArgs.ExportControlProvider) method returns the configured XRChart control to be printed in the resulting ducument.
+The [CustomItemExportControlCreating](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.CustomItemExportControlCreating) event fires for the Funnel item and the [ExportControlProvider](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemExportControlCreatingEventArgs.ExportControlProvider) method returns the configured Funnel item to be printed in the resulting ducument.
 
 The [DashboardExporter.ExportToPdf](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.ExportDashboardItemToPdf(Dashboard--String--String--Nullable-Size---DashboardState--DashboardPdfExportOptions)) method exports a dashboard in a Pdf file.
 

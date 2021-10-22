@@ -7,7 +7,6 @@ using DevExpress.XtraReports.UI;
 namespace DashboardExporterApp {
     public class FunnelItemExportControlProvider : ICustomExportControlProvider {
         readonly CustomDashboardItem dashboardItem;
-
         public FunnelItemExportControlProvider(CustomDashboardItem dashboardItem) {
             this.dashboardItem = dashboardItem;
         }

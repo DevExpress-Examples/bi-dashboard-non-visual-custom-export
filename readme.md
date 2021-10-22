@@ -21,7 +21,7 @@ The following files are used in this example:
 
 ### FunnelItemExportControlProvider
 
- [CS](./CS/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.cs)/[VB](./VB/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.vb)
+**View file**: [CS](./CS/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.cs)/[VB](./VB/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.vb)
 
 The `FunnelItemExportControlProvider` class implements the [ICustomExportControlProvider](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ICustomExportControlProvider) interface. The `FunnelItemExportControlProvider` is used to configure the printable control for the custom Funnel item in the dashboard. 
 
@@ -36,7 +36,7 @@ The `ConigureSeries` method is used to bind the custom Funnel chart's series to 
 
 ### Program
 
-[CS](./CS/DashboardExporterApp/Program.cs)/[VB](./VB/DashboardExporterApp/Program.vb)
+**View file**: [CS](./CS/DashboardExporterApp/Program.cs)/[VB](./VB/DashboardExporterApp/Program.vb)
 
 The [CustomItemExportControlCreating](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.CustomItemExportControlCreating) event fires for the Funnel item and the [ExportControlProvider](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemExportControlCreatingEventArgs.ExportControlProvider) method returns the `FunnelItemExportControlProvider` that is used to specify a printable control that corresponds to the exported custom Funnel item.
 

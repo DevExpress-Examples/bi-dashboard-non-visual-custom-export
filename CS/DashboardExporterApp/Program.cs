@@ -25,7 +25,8 @@ namespace DashboardExporterApp {
             dashboardState.Items.Add(listBoxState);
             dashboardState.Items.Add(funnelState);
             try {
-                exporter.ExportToPdf(@"Dashboards\Dashboard.xml", outputFilePath, state: dashboardState, dashboardSize: new Size(800, 500));
+                exporter.ExportToPdf(@"Dashboards\Dashboard.xml", outputFilePath, state: dashboardState, 
+                    dashboardSize: new Size(800, 500));
             }
             catch(Exception e) {
                 Console.WriteLine(e.Message);

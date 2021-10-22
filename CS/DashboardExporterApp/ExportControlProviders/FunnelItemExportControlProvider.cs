@@ -11,17 +11,20 @@ namespace DashboardExporterApp {
         public FunnelItemExportControlProvider(CustomDashboardItem dashboardItem) {
             this.dashboardItem = dashboardItem;
         }
-        XRControl ICustomExportControlProvider.GetPrintableControl(CustomItemData customItemData, CustomItemExportInfo exportInfo) {
+        XRControl ICustomExportControlProvider.GetPrintableControl(CustomItemData customItemData, 
+            CustomItemExportInfo exportInfo) {
             XRChart chart = new XRChart();
             chart.Legend.Visibility = DevExpress.Utils.DefaultBoolean.True;
             chart.CustomDrawSeriesPoint += CustomDrawSeriesPoint;
-            DashboardFlatDataSource flatData = customItemData.GetFlatData(new DashboardFlatDataSourceOptions() { AddColoringColumns = true });
+            DashboardFlatDataSource flatData = customItemData.GetFlatData(new DashboardFlatDataSourceOptions() {
+                AddColoringColumns = true });
             ConfigureSeries(chart, customItemData, flatData, exportInfo.DrillDownValues.Count);
             SetSelectionMode(chart);
             SetSelection(chart, exportInfo.Selection, flatData);
             return chart;
         }
-        void ConfigureSeries(XRChart chart, CustomItemData customItemData, DashboardFlatDataSource flatData, int drillDownLevel) {
+        void ConfigureSeries(XRChart chart, CustomItemData customItemData,
+            DashboardFlatDataSource flatData, int drillDownLevel) {
             chart.Series.Clear();
             Series series = new Series("A Funnel Series", ViewType.Funnel);
             IList<CustomItemBindingValue> values = customItemData.GetBindings("Value");
@@ -55,7 +58,8 @@ namespace DashboardExporterApp {
                     break;
             }
         }
-        void SetSelection(XRChart chart, CustomItemSelection selection, DashboardFlatDataSource flatData) {
+        void SetSelection(XRChart chart, CustomItemSelection selection, 
+            DashboardFlatDataSource flatData) {
             foreach(DashboardFlatDataSourceRow row in selection.GetDashboardFlatDataSourceRows(flatData))
                 chart.Chart.SelectedItems.Add(row);
         }

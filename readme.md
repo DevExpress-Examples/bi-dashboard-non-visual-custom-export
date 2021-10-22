@@ -21,7 +21,7 @@ The following API used in this example:
 
 ### FunnelItemExportControlProvider
 
- [CS](./CS/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.cs)/ [VB](./VB/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.vb)
+ [CS](./CS/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.cs)/[VB](./VB/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.vb)
 
 The `FunnelItemExportControlProvider` class implements the [ICustomExportControlProvider](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ICustomExportControlProvider) interface. The `FunnelItemExportControlProvider` is used to configure the printable control and export options before you export a dashboard. 
 
@@ -36,7 +36,7 @@ The `ConigureSeries` method is used to bind a custom Funnel chart's series to da
 
 ### Program
 
-[CS](./CS/DashboardExporterApp/Program.cs)/ [VB](./VB/DashboardExporterApp/Program.vb)
+[CS](./CS/DashboardExporterApp/Program.cs)/[VB](./VB/DashboardExporterApp/Program.vb)
 
 The [CustomItemExportControlCreating](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.CustomItemExportControlCreating) event fires for the Funnel item and the [ExportControlProvider](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemExportControlCreatingEventArgs.ExportControlProvider) method returns the configured XRChart control to be printed in the resulting ducument.
 

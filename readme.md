@@ -35,7 +35,8 @@ The CustomControlProviderBase.SetSelection(CustomItemSelection) method updates a
 The `ConigureSeries` method is used to bind a custom Funnel chart's series to data and configure them. The [CustomItemData.GetBindings](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemData.GetBindings(System.String)) method gets a CustomItemBindingValue collection. Each object in this collection contains information about data items stored in custom item metadata. The object’s UniqueId property value can be used as a data member when you bind a custom control to data. 
 
 ### Program
-* [CS](./CS/DashboardExporterApp/Program.cs)/ [VB](./VB/DashboardExporterApp/Program.vb)
+
+[CS](./CS/DashboardExporterApp/Program.cs)/ [VB](./VB/DashboardExporterApp/Program.vb)
 
 The [CustomItemExportControlCreating](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.CustomItemExportControlCreating) event fires for the Funnel item and the [ExportControlProvider](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemExportControlCreatingEventArgs.ExportControlProvider) method returns the configured XRChart control to be printed in the resulting ducument.
 

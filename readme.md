@@ -17,7 +17,7 @@ This example shows how to use the [DashboardExporter](https://docs.devexpress.co
 
 ## Overview
 
-The following API used in this example:
+The following files used in this example:
 
 ### FunnelItemExportControlProvider
 

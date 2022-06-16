@@ -32,6 +32,7 @@ Namespace DashboardExporterApp
 			dashboardState.Items.Add(funnelState)
 			Try
 				exporter.ExportToPdf("Dashboards\Dashboard.xml", outputFilePath, state:= dashboardState, dashboardSize:= New Size(800, 500))
+                		Console.WriteLine("Success!")
 			Catch e As Exception
 				Console.WriteLine(e.Message)
 			End Try

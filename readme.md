@@ -14,7 +14,7 @@ This example shows how to use the [DashboardExporter](https://docs.devexpress.co
 In the console, run the `DashboardExporterApp.exe` application and specify the path where you want to export the document:
 
 ```
-> DashboardExporterApp.exe C:/test
+D:\work\test\app>DashboardExporterApp.exe D:/work/test
 ```
 
 The application prints the `Dashboard.xml` dashboard located in the _Dashboards_ folder next to the application.

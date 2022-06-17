@@ -1,5 +1,4 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/420023909/21.2.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1038672)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
@@ -7,15 +6,17 @@
 
 This example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component in a console application to export a dashboard with a [custom](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item) Funnel item.
 
-![](web-dashboard-non-visual-export.png)
-
 ## How to Use the Application
 
-Launch the console application and specify the path where you want to export the document:
+In the console, run the `DashboardExporterApp.exe` application and specify the path where you want to export the document:
 
 ```
-> DashboardExporterApp.exe C:/test
+D:\work\test\app>DashboardExporterApp.exe D:/work/test
 ```
+
+The application prints the `Dashboard.xml` dashboard located in the _Dashboards_ folder next to the application.
+
+![](web-dashboard-non-visual-export.png)
 
 ## Example Overview
 
@@ -44,7 +45,7 @@ The [CustomItemExportControlCreating](https://docs.devexpress.com/Dashboard/DevE
 
 The [DashboardExporter.ExportToPdf](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.ExportDashboardItemToPdf(Dashboard--String--String--Nullable-Size---DashboardState--DashboardPdfExportOptions)) method exports a dashboard as a PDF file.
 
-## Files to look at
+## Files to Look At
 
 * [FunnelItemExportControlProvider.cs](./CS/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.cs) (VB: [FunnelItemExportControlProvider.vb](./VB/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.vb))
 * [Program.cs](./CS/DashboardExporterApp/Program.cs) (VB: [Program.vb](./VB/DashboardExporterApp/Program.vb))

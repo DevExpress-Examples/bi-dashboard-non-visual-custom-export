@@ -7,8 +7,6 @@
 
 This example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component in a console application to export a dashboard with a [custom](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item) Funnel item.
 
-![](web-dashboard-non-visual-export.png)
-
 ## How to Use the Application
 
 In the console, run the `DashboardExporterApp.exe` application and specify the path where you want to export the document:
@@ -18,6 +16,8 @@ D:\work\test\app>DashboardExporterApp.exe D:/work/test
 ```
 
 The application prints the `Dashboard.xml` dashboard located in the _Dashboards_ folder next to the application.
+
+![](web-dashboard-non-visual-export.png)
 
 ## Example Overview
 

@@ -7,17 +7,15 @@
 
 This example shows how to use the [DashboardExporter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter) component in a console application to export a dashboard with a [custom](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item) Funnel item.
 
-![](web-dashboard-non-visual-export.png)
+<!-- default file list -->
+## Files to look at
 
-## How to Use the Application
+* [FunnelItemExportControlProvider.cs](./CS/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.cs) (VB: [FunnelItemExportControlProvider.vb](./VB/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.vb))
+* [Program.cs](./CS/DashboardExporterApp/Program.cs) (VB: [Program.vb](./VB/DashboardExporterApp/Program.vb))
 
-Launch the console application and specify the path where you want to export the document:
+<!-- default file list end -->
 
-```
-> DashboardExporterApp.exe C:/test
-```
-
-## Example Overview
+## Overview
 
 The following files are used in this example:
 
@@ -43,12 +41,6 @@ The `ConigureSeries` method is used to bind the custom Funnel chart's series to 
 The [CustomItemExportControlCreating](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.CustomItemExportControlCreating) event fires for the Funnel item. The `FunnelItemExportControlProvider` object is assigned to and the [ExportControlProvider](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemExportControlCreatingEventArgs.ExportControlProvider) property. The property is used to specify the printable control that corresponds to the exported custom Funnel item.
 
 The [DashboardExporter.ExportToPdf](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExporter.ExportDashboardItemToPdf(Dashboard--String--String--Nullable-Size---DashboardState--DashboardPdfExportOptions)) method exports a dashboard as a PDF file.
-
-## Files to look at
-
-* [FunnelItemExportControlProvider.cs](./CS/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.cs) (VB: [FunnelItemExportControlProvider.vb](./VB/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.vb))
-* [Program.cs](./CS/DashboardExporterApp/Program.cs) (VB: [Program.vb](./VB/DashboardExporterApp/Program.vb))
-
 
 ## Documentation
 

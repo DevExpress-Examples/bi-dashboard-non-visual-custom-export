@@ -16,7 +16,6 @@ D:\work\test\app>DashboardExporterApp.exe D:/work/test
 
 The application generates a PDF file from the `Dashboard.xml` dashboard and places it in the _Dashboards_ folder next to the application.
 
-
 ![](web-dashboard-non-visual-export.png)
 
 ## Example Overview
@@ -48,10 +47,8 @@ The [DashboardExporter.ExportToPdf](https://docs.devexpress.com/Dashboard/DevExp
 
 ## Files to Review
 
-
 * [FunnelItemExportControlProvider.cs](./CS/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.cs) (VB: [FunnelItemExportControlProvider.vb](./VB/DashboardExporterApp/ExportControlProviders/FunnelItemExportControlProvider.vb))
 * [Program.cs](./CS/DashboardExporterApp/Program.cs) (VB: [Program.vb](./VB/DashboardExporterApp/Program.vb))
-
 
 ## Documentation
 
@@ -65,4 +62,3 @@ The [DashboardExporter.ExportToPdf](https://docs.devexpress.com/Dashboard/DevExp
 - [BI Dashboard - Non-Visual Export Component](https://github.com/DevExpress-Examples/bi-dashboard-non-visual-exporter)
 - [BI Dashboard - How to Email a Dashboard that Displays Different Data Depending on the Addressee](https://github.com/DevExpress-Examples/bi-dashboard-mailkit-export-console-app)
 - [BI Dashboard - How to Use MailKit to Send a Dashboard as a Document in PDF](https://github.com/DevExpress-Examples/bi-dashboard-mailkit-export)
-

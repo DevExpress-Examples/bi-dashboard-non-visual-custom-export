@@ -27,7 +27,6 @@ namespace DashboardExporterApp {
             try {
                 exporter.ExportToPdf(@"Dashboards\Dashboard.xml", outputFilePath, state: dashboardState, 
                     dashboardSize: new Size(800, 500));
-                Console.WriteLine("Success!");
             }
             catch(Exception e) {
                 Console.WriteLine(e.Message);

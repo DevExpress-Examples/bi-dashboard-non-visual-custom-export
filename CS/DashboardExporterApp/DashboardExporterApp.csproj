@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.1-beta-21274" />
+    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.3" />
   </ItemGroup>
 
   <ItemGroup>

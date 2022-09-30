@@ -14,7 +14,8 @@ In the console, run the `DashboardExporterApp.exe` application and specify the p
 D:\work\test\app>DashboardExporterApp.exe D:/work/test
 ```
 
-The application prints the `Dashboard.xml` dashboard located in the _Dashboards_ folder next to the application.
+The application generates a PDF file from the `Dashboard.xml` dashboard and places it in the _Dashboards_ folder next to the application.
+
 
 ![](web-dashboard-non-visual-export.png)
 

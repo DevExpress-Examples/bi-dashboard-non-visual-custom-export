@@ -1,14 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
     <OptionStrict>Off</OptionStrict>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
-
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System.Collections.Generic" />
@@ -17,9 +16,8 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Dashboard.Core" Version="21.2.10" />
+    <PackageReference Include="DevExpress.Dashboard.Core" Version="24.2.1-alpha-24207" />
   </ItemGroup>
-
   <ItemGroup>
     <None Update="Dashboards\Dashboard.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -31,5 +29,4 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
 </Project>
